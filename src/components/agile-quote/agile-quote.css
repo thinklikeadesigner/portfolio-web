@@ -1,0 +1,54 @@
+.quote {
+  position: relative;
+  color: white;
+  
+}
+
+.quote-content {
+  padding-left: 40px;
+  display: inline-block;
+  opacity: 0.8;
+ 
+}
+
+.quote-link {
+  color: #d9ab93;
+  text-decoration: none;
+}
+
+.quote-arrow {
+
+  height: 16px;
+fill: white;
+  background-image: url("../../../public/link-icon.svg");
+}
+
+.quote-arrow:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.image-container {
+  padding-top: 16px;
+  padding-left: 40px;
+}
+
+.quote-link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.quote-marks {
+  font-family: Arial;
+  font-size: 200px;
+  position: absolute;
+  top: -50px;
+  opacity: 0.1;
+}
+
+.quote-author {
+  padding-left: 40px;
+  display: inline-block;
+  opacity: 0.8;
+  font-size: 12px;
+}

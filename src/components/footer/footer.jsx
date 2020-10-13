@@ -20,7 +20,7 @@ class FooterComponent extends Component {
             Github
           </a>
            /
-          <a target="_blank" href="https://twitter.com/thinklikeadesigner">
+          <a target="_blank" href="https://twitter.com/thinklikeadev">
             Twitter
           </a>
            /

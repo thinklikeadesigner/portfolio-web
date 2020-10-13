@@ -1,14 +1,10 @@
-<p align="center">
-  <img src="icon.png" width="150px" />
-</p>
+
 
 # personal-portfolio
 
-[Demo](https://salomonelli.github.io/personal-portfolio/)
 
-This portfolio is made with [React](https://github.com/facebook/react), [Material UI](https://github.com/callemall/material-ui) and lots of love.
-Although it is my personal portfolio, feel free to fork and have fun with it.
 
+This portfolio is made with [React](https://github.com/facebook/react), [Material UI](https://github.com/callemall/material-ui)
 ## Installation
 
 1. Run `npm i`.

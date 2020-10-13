@@ -48,18 +48,18 @@ class App extends Component {
             <div className="section-container">
               <ProgrammingComponent></ProgrammingComponent>
             </div>
-          </div>
+          </div> */}
           <div className="section">
             <div className="section-container">
               <DesignComponent></DesignComponent>
             </div>
-          </div> */}
+          </div> 
 {/* 
           <div className="section colored">
             <div className="section-container">
               <AgileComponent></AgileComponent>
             </div>
-          </div> */}
+          </div>
           <div className="section dark">
             <div className="section-container">
               <AgileQuoteComponent></AgileQuoteComponent>

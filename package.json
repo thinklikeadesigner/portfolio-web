@@ -1,6 +1,6 @@
 {
   "name": "personal-portfolio",
-  "homepage": "https://salomonelli.github.io/personal-portfolio",
+  "homepage": "https://thinklikeadesigner.github.io/portfolio-web",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
@@ -10,6 +10,7 @@
     "material-ui": "0.17.4",
     "react": "15.5.4",
     "react-dom": "15.5.4",
+    "react-router-dom": "^5.2.0",
     "react-tap-event": "1.0.3",
     "react-tap-event-plugin": "2.0.1",
     "roboto-npm-webfont": "0.0.2",

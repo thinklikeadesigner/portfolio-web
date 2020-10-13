@@ -39,11 +39,11 @@ class App extends Component {
               <TimelineComponent></TimelineComponent>
             </div>
           </div>
-          <div className="section dark">
+          {/* <div className="section dark">
             <div className="section-container">
               <DarkVoiceComponent></DarkVoiceComponent>
             </div>
-          </div>
+          </div> */}
           <div className="section colored">
             <div className="section-container">
               <ProgrammingComponent></ProgrammingComponent>

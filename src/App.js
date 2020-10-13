@@ -41,7 +41,7 @@ class App extends Component {
           </div>
           <div className="section dark">
             <div className="section-container">
-              <DarkVoiceComponent></DarkVoiceComponent>
+              {/* <DarkVoiceComponent></DarkVoiceComponent> */}
             </div>
           </div>
           <div className="section colored">

@@ -1,6 +1,6 @@
 
 
-# personal-web
+# Rebecca Burch's Portfolio Website
 
 
 

@@ -7,7 +7,7 @@ class AgileQuoteComponent extends Component {
       <div className="agile-quote">
         <p className="quote">
           {/* <span className="quote-marks">&ldquo;</span> */}
-          <span
+          <span 
             href="https://github.com/salomonelli/personal-portfolio"
             className="quote-content"
           >
@@ -19,6 +19,7 @@ class AgileQuoteComponent extends Component {
             arai-label="external link"
             className="quote-arrow"
             src="link-icon.svg"
+            alt="img link icon"
           />{" "}
           <a
             className="quote-link"

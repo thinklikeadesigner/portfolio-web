@@ -12,6 +12,7 @@ class TimelineComponent extends Component {
         super(props);
 
         this.state = {
+          expanded0: false,
           expanded1: false,
           expanded2: false,
           expanded3: false
@@ -21,6 +22,10 @@ class TimelineComponent extends Component {
     async componentDidMount() {}
 
     componentWillUnmount() {}
+
+    handleExpandChange0 = (expanded0) => {
+      this.setState({expanded0: expanded0});
+    };
 
     handleExpandChange = (expanded1) => {
       this.setState({expanded1: expanded1});
@@ -34,6 +39,10 @@ class TimelineComponent extends Component {
       this.setState({expanded3: expanded3});
     };
 
+    handleExpand0 = () => {
+      this.setState({expanded0: true});
+    };
+
     handleExpand = () => {
       this.setState({expanded: true});
     };
@@ -44,6 +53,10 @@ class TimelineComponent extends Component {
 
     handleExpand3 = () => {
       this.setState({expanded3: true});
+    };
+
+    handleReduce0 = () => {
+      this.setState({expanded0: false});
     };
 
     handleReduce = () => {
@@ -63,7 +76,7 @@ class TimelineComponent extends Component {
               <p className="headline">Learning experience</p>
                 <div className="timeline-entry">
                   <Card>
-                      <CardHeader title="Front End Developer" subtitle="Sideprjct Accelerator Program"/>
+           
                       <CardText expandable={true}>
                           May	2020 - Current. Full Stack Web Developer Bootcamp.
                           <br/><br/>
@@ -90,6 +103,30 @@ class TimelineComponent extends Component {
                       </CardText>
                   </Card>
                 </div>
+                <div className="timeline-entry">
+                    <Card expanded={this.state.expanded0} onExpandChange={this.handleExpandChange0}>
+                        <CardHeader title="App Developer" subtitle="Sideprjct Accelerator Program"
+                          actAsExpander={true} showExpandableButton={true}/>
+                        <CardText expandable={true}>
+                        September	2020 - Current. Agile side project program for developing MVP.
+                            <br/><br/>
+                              <div className="timeline-entries">
+                                <div className="timeline-entry-chip">
+                                  <Chip>Asana</Chip>
+                                </div>
+                                <div className="timeline-entry-chip">
+                                  <Chip>Google Meet</Chip>
+                                </div>
+                                
+                              
+                                <div className="timeline-entry-chip">
+                                  <Chip>Agile</Chip>
+                                </div>
+
+                              </div>
+                        </CardText>
+                    </Card>
+                  </div>
                   <div className="timeline-entry">
                     <Card expanded={this.state.expanded1} onExpandChange={this.handleExpandChange}>
                         <CardHeader title="Student" subtitle="Practicum"
@@ -113,9 +150,7 @@ class TimelineComponent extends Component {
                                 <div className="timeline-entry-chip">
                                   <Chip>Slack</Chip>
                                 </div>
-                                <div className="timeline-entry-chip">
-                                  <Chip>Agile</Chip>
-                                </div>
+                               
 
                               </div>
                         </CardText>
@@ -138,15 +173,8 @@ class TimelineComponent extends Component {
                             <div className="timeline-entry-chip">
                               <Chip>Flutter</Chip>
                             </div>
-                            <div className="timeline-entry-chip">
-                              <Chip>Material UI</Chip>
-                            </div>
-                            <div className="timeline-entry-chip">
-                              <Chip>Asana</Chip>
-                            </div>
-                            <div className="timeline-entry-chip">
-                              <Chip>Dart</Chip>
-                            </div>
+                          
+                           
                             <div className="timeline-entry-chip">
                               <Chip>Android Studio</Chip>
                             </div>
@@ -161,15 +189,7 @@ class TimelineComponent extends Component {
                       <CardText expandable={true}>
                           September 2020 -	Present. Founded a growing community of UX designers and Front End Developers for the purpose of trying to create a DevOps culture relevant for UX.
                           <div className="timeline-entries">
-                            <div className="timeline-entry-chip">
-                              <Chip>Figma</Chip>
-                            </div>
-                            <div className="timeline-entry-chip">
-                              <Chip>Asana</Chip>
-                            </div>
-                            <div className="timeline-entry-chip">
-                              <Chip>Zoom</Chip>
-                            </div>
+                            
                           </div>
                       </CardText>
                   </Card>

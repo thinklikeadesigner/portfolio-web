@@ -187,7 +187,7 @@ class TimelineComponent extends Component {
                       <CardHeader title="Community Manager" subtitle="DevUX Projects"
                         actAsExpander={true} showExpandableButton={true}/>
                       <CardText expandable={true}>
-                          September 2020 -	Present. Founded a growing community of UX designers and Front End Developers for the purpose of trying to create a DevOps culture relevant for UX.
+                          September 2020 -	Present. Founded a club for UX designers and front end developers to teach eachother.
                           <div className="timeline-entries">
                             
                           </div>

@@ -84,7 +84,7 @@ class TimelineComponent extends Component {
                                   <Chip>Slack</Chip>
                                 </div>
                                 <div className="timeline-entry-chip">
-                                  <Chip>Agile</Chip>
+                                  <Chip>NodeJS</Chip>
                                 </div>
 </div>
                       </CardText>
@@ -133,19 +133,19 @@ class TimelineComponent extends Component {
                               <Chip>Docker</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>AWS</Chip>
+                              <Chip>Firebase</Chip>
                             </div>
                             <div className="timeline-entry-chip">
                               <Chip>Flutter</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>Materil UI</Chip>
+                              <Chip>Material UI</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>Trello</Chip>
+                              <Chip>Asana</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>Miro</Chip>
+                              <Chip>Dart</Chip>
                             </div>
                             <div className="timeline-entry-chip">
                               <Chip>Android Studio</Chip>
@@ -165,7 +165,7 @@ class TimelineComponent extends Component {
                               <Chip>Figma</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>Adobe XD</Chip>
+                              <Chip>Asana</Chip>
                             </div>
                             <div className="timeline-entry-chip">
                               <Chip>Zoom</Chip>
